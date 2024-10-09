@@ -27,3 +27,15 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+@media screen and (width > 750px) {
+  .box {
+    background-color: green;
+  }
+}
